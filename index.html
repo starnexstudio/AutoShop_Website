@@ -74,7 +74,7 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "AutoRepair",
+    "@type": "AutomotiveBusiness"
     "name": "Auto Xheviti",
     "url": "https://autoxheviti.com/",
     "logo": "https://autoxheviti.com/images/logo1.png",
@@ -88,6 +88,21 @@
       "addressLocality": "Tiranë",
       "addressCountry": "AL"
     },
+    "openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "opens": "07:30",
+    "closes": "18:00"
+  }
+]
     "areaServed": {
       "@type": "City",
       "name": "Tiranë"
@@ -97,6 +112,7 @@
       "https://instagram.com/auto_xheviti"
     ]
   }
+  
   </script>
 </head>
 ```
@@ -106,7 +122,10 @@
 
 <header class="navbar">
   <a href="#home" class="logo">
-    <img src="images/logo1.png" alt="Auto Xheviti Logo">
+    <img
+  src="images/logo1.png"
+  alt="Auto Xheviti - Xhama të zinj në Tiranë"
+>
     <span>AUTO XHEVITI</span>
   </a>
 
@@ -121,11 +140,18 @@
 
   <a href="tel:+355692745532" class="nav-btn nav-btn-desktop">Telefono</a>
 
-  <button class="nav-hamburger" id="menuBtn" aria-label="Menu">
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
+  <button
+  class="nav-hamburger"
+  id="menuBtn"
+  type="button"
+  aria-label="Hap menunë"
+  aria-controls="mobileMenu"
+  aria-expanded="false"
+>
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
 </header>
 
 <!-- MENU OVERLAY — jashtë header, direkt në body -->
@@ -189,9 +215,18 @@
   </div>
 
   <div class="hero-right">
-    <video autoplay muted loop playsinline class="hero-video">
-      <source src="videos/hero-video.mp4" type="video/mp4">
-    </video>
+    <video
+  autoplay
+  muted
+  loop
+  playsinline
+  preload="metadata"
+  poster="images/hero-poster.jpg"
+  class="hero-video"
+>
+  <source src="videos/hero-video.mp4" type="video/mp4">
+  Shfletuesi juaj nuk e mbështet videon.
+</video>
     <div class="hero-video-overlay"></div>
     <div class="hero-video-corners">
       <span class="vc tl"></span>
