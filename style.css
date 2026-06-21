@@ -1580,7 +1580,7 @@ h1, h2, h3 {
     linear-gradient(to bottom, #060708 0%, transparent 18%, transparent 82%, #060708 100%),
     radial-gradient(circle at 12% 25%, rgba(226, 31, 43, 0.11), transparent 38%),
     radial-gradient(circle at 88% 70%, rgba(20, 41, 67, 0.42), transparent 40%),
-    linear-gradient(165deg, #060708 0%, #0f0307 30%, #060c18 58%, #0d0204 85%, #060708 100%);
+    linear-gradient(165deg, #060708 0%, #05030f 30%, #060c18 58%, #0d0204 85%, #060708 100%);
   position: relative;
   overflow: hidden;
 }
@@ -1613,7 +1613,7 @@ h1, h2, h3 {
 }
 
 .contact-info {
-  background: var(--grad-card);
+  background: var(--black-soft);
   border: 1px solid var(--grey-line);
   border-radius: 18px;
   padding: 40px 36px;
@@ -1667,7 +1667,7 @@ h1, h2, h3 {
   display: flex;
   flex-direction: column;
   gap: 18px;
-  background: var(--grad-card);
+  background: var(--black-soft);
   border: 1px solid var(--grey-line);
   border-radius: 18px;
   padding: 40px 36px;
