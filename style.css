@@ -1125,7 +1125,7 @@ h1, h2, h3 {
 }
 
 .service-card {
-  background: var(--grad-card);
+  background: var(--black-soft);
   border: 1px solid var(--grey-line);
   border-radius: 16px;
   padding: 38px 30px;
@@ -1138,7 +1138,7 @@ h1, h2, h3 {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(160deg, rgba(226,31,43,0.08), transparent 60%);
+  background: linear-gradient(160deg, rgba(148, 0, 0, 0.08), transparent 60%);
   opacity: 0;
   transition: opacity var(--t-mid);
 }
@@ -1149,7 +1149,7 @@ h1, h2, h3 {
   left: 0; bottom: 0;
   width: 100%;
   height: 2px;
-  background: var(--grad-red);
+  background: var(--red);
   transform: scaleX(0);
   transform-origin: left;
   transition: transform var(--t-mid);
@@ -2118,19 +2118,19 @@ h1, h2, h3 {
   background:
     radial-gradient(
       circle at 85% 20%,
-      rgba(15, 55, 110, 0.18),
+      rgba(110, 0, 0, 0.18),
       transparent 42%
     ),
     radial-gradient(
       circle at 10% 80%,
-      rgba(5, 25, 60, 0.20),
+      rgba(0, 21, 56, 0.2),
       transparent 45%
     ),
     linear-gradient(
       135deg,
-      #05080d 0%,
-      #070d16 50%,
-      #05080d 100%
+      #000000 0%,
+      #000000 50%,
+      #000000 100%
     );
 }
 
@@ -2161,9 +2161,9 @@ h1, h2, h3 {
   background: linear-gradient(
     90deg,
     transparent 0%,
-    rgba(226, 31, 43, 0.35) 18%,
+    rgba(240, 0, 16, 0.35) 18%,
     var(--red) 50%,
-    rgba(226, 31, 43, 0.35) 82%,
+    rgba(255, 0, 17, 0.35) 82%,
     transparent 100%
   );
 
